@@ -28,6 +28,10 @@ Python Publisher → Pub/Sub → Dataflow (Apache Beam) → BigQuery
 - `scripts/publisher.py` – Publishes streaming data  
 - `scripts/dataflow_pipeline.py` – Processes and loads data  
 
+## 🏗️ Architecture
+
+![GCP Pipeline](architecture.png)
+
 ## ▶️ How to Run
 1. Create Pub/Sub topic and subscription  
 2. Create BigQuery dataset and table  

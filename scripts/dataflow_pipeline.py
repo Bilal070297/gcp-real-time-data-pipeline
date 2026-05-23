@@ -12,7 +12,7 @@ class ParseMessage(beam.DoFn):
         }
 
 def run():
-    project_id = "project-93921294-15bc-440f-acb"
+    project_id = ""
     subscription = "projects/{}/subscriptions/weather-sub".format(project_id)
 
     table_spec = "{}:weather_dataset.weather_data".format(project_id)

@@ -2,7 +2,7 @@ import json
 import time
 from google.cloud import pubsub_v1
 
-project_id = "project-93921294-15bc-440f-acb"
+project_id = ""
 topic_id = "weather-topic"
 
 publisher = pubsub_v1.PublisherClient()
